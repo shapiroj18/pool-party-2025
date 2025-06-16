@@ -5,33 +5,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Pool Party 2025</title>
 
-        <link
+        <!-- <link
             href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Press+Start+2P&display=swap"
             rel="stylesheet"
-        />
+        /> -->
+
+        <link rel="icon" type="image/png" href="assets/favicon/mermaid.png" />
 
         <style>
+            @font-face {
+                font-family: papyrus;
+                src: url(assets/fonts/papyrus.ttf);
+            }
+
             :root {
-                --primary-color: #ff69b4;
-                --bg-color: #fffbe6;
-                --text-color: #333;
-                --caption-color: #555;
+                --primary-color: #6b7280;
+                --bg-color: #2c3e50;
+                --text-color: #d4c5b0;
+                --caption-color: #95a5a6;
+                --highlight-color: #dc143c;
+                font-family: "papyrus";
+            }
+
+            h1 {
+                font-size: 1.2rem;
+                margin: 1.5rem 1rem 1rem;
+                color: var(--primary-color);
+            }
+
+            h2 {
+                font-style: oblique;
+                font-size: 1.2rem;
+                margin: 1.5rem 1rem 1rem;
+                color: var(--text-color);
             }
 
             body {
                 margin: 0;
                 padding: 0;
-                font-family: "Indie Flower", cursive;
+                font-family: "papyrus", cursive;
                 background-color: var(--bg-color);
                 color: var(--text-color);
                 text-align: center;
             }
 
-            h1 {
-                font-family: "Press Start 2P", cursive;
-                font-size: 1.2rem;
-                margin: 1.5rem 1rem 1rem;
-                color: var(--primary-color);
+            span {
+                color: var(--highlight-color);
+                font-style: italic;
+                padding: 0.2rem;
             }
 
             .gif-container {
@@ -63,31 +84,46 @@
                 }
 
                 .gif-container {
-                    max-width: 500px;
+                    max-width: 250px;
                 }
             }
         </style>
     </head>
 
     <body>
-        <h1>THE 4th ANNUAL INTERNATIONAL POOL POTLUCK</h1>
+        <h1>
+            International Pool Potluck pt <span><u>IV</u></span>
+        </h1>
+        <h2>⋆ ༺ 𓆩 🗡 𓆪 ༻ ⋆</h2>
+        <h2>Goth Beach Edition</h2>
+        <h2>⋆ ༺ 𓆩 🗡 𓆪 ༻ ⋆</h2>
 
         <div class="gif-container">
             <img
-                src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif"
-                alt="Funny Cat GIF"
+                src="assets/gifs/roseinhand.gif"
+                alt="Rose in Hand"
+                style="border: none; box-shadow: none"
             />
             <div class="caption">
-                When you're trying to work but distractions win 😹
+                Does it <span>feel</span> like the world has a
+                <span>chain</span> around you?
             </div>
+            <br />
+            <br />
+            <div class="caption">
+                Let us join in and condemn the fourth of Jul<span>die</span>
+                by raising money for organizations this country
+                <span>HATES</span>
+            </div>
+            <img
+                src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dmNkdmw0Y3I0MTRmYWt3bnFhbnRieG11aXVoeHEzaWxuMDhiaWpwOCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xxT6DUHVWlMDN4DotU/giphy.gif"
+                alt="Unhappy 4th"
+            />
         </div>
 
         <div class="gif-container">
-            <img
-                src="https://media.giphy.com/media/l4pTfx2qLszoacZRS/giphy.gif"
-                alt="Celebration GIF"
-            />
-            <div class="caption">Weekend vibes! 💃🕺</div>
+            <img />
+            <div class="caption"></div>
         </div>
     </body>
 </html>
