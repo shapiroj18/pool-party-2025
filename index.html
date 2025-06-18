@@ -12,6 +12,11 @@
                 src: url(assets/fonts/papyrus.ttf);
             }
 
+            @font-face {
+                font-family: "nosifer";
+                src: url(assets/fonts/nosifer.ttf);
+            }
+
             :root {
                 --primary-color: #6b7280;
                 --bg-color: #2c3e50;
@@ -55,18 +60,23 @@
                 padding: 0.2rem;
             }
 
+            a {
+                color: var(--text-color);
+            }
+
             ol,
             ul {
                 display: inline-block;
                 text-align: left;
                 margin: 0.3rem auto;
                 color: var(--caption-color);
+                max-width: 600px;
             }
 
             .gif-container {
                 margin: 1.2rem auto;
                 padding: 0 1rem;
-                max-width: 300px;
+                max-width: 400px;
             }
 
             .gif-container img {
@@ -81,7 +91,12 @@
                 font-size: 1.1rem;
                 margin-top: 0.5rem;
                 color: var(--caption-color);
+
+                .text-color {
+                    color: var(--text-color);
+                }
             }
+
         </style>
     </head>
 
@@ -95,15 +110,27 @@
 
         <div class="gif-container">
             <img
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWI2emdteG82NHNlNzFkZDFpMXVjeWZ6dGE0N3FraHNpdWlxMTBlcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1AjFkUUpMC7fg4Tkmn/giphy.gif"
+                alt="Putting on sunscreen"
+            />
+            <div class="caption">
+                Welcome back my little <span>gremlins!</span>
+                <br/>
+                I <i>need</i> to know...
+            </div>
+        </div>
+        <div class="gif-container">
+            <div class="caption-text-color">
+                Does it <i>feel</i>&nbsp; like the world has a <i>chain</i> around you?
+            </div>
+            <img
                 src="assets/gifs/roseinhand.gif"
                 alt="Rose in Hand"
                 style="border: none; box-shadow: none"
             />
-            <div class="caption">
-                Does it <span>feel</span> like the world has a
-                <span>chain</span> around you?
-            </div>
+        </div>
             <br />
+        <div class="gif-container">
             <div class="caption">
                 Let us join in and condemn the fourth of Jul<span>die</span>
                 by raising money for organizations this country
@@ -117,7 +144,7 @@
         <h2>The Goal</h2>
         <ul>
             <li>
-                Raise <span>at least</span> $5,000.00 in
+                Raise <span>at least</span> <b>$5,000.00</b> in
                 <span>fat stacks</span> for communities under siege.
             </li>
             <li>
@@ -125,25 +152,51 @@
                 ye ol' marble
             </li>
         </ul>
-
         <h2>How???</h2>
-        <ul style="list-style: &quot;\26A1  KAPOW \26A1             &quot;" ;>
-            <li>Bring an international dish to share</li>
-            <li>Engage in fundraising games (see below!!)</li>
-            <li>Dress up in gothic swimwear</li>
-            <li>Bring any leftover drinks to contribute to the fundraiser</li>
+        <ul style="list-style: none">
+            <li>⚡🌪️   <a href="https://lu.ma/17ieeefb" target="_blank">RSVP</a>  🌪️⚡</li>
+            <li>⚡🌪️   DRESS UP IN GOTHIC SWIMWEAR ( <a href="https://nz.pinterest.com/nutellanela/intl-potluck-pool-party-iv-goth-beach-edition/" target="_blank">fit inspo</a> ) 🌪️⚡</li>
+            <li>⚡🌪️   ENGAGE IN FUNDRAISING GAMES (see below!!)  🌪️⚡</li>
+            <li>⚡🌪️   BRING AN INTERNATIONAL DISH TO SHARE  🌪️⚡</li>
+            <li>⚡🌪️   BRING EXXTRA DRANKS TO CONTRIBUTE (will be sold to raise <i>even more funds</i>)  🌪️⚡</li>
         </ul>
 
+        <div class="gif-container" style="max-width: 600px;">
+            <img
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWI2emdteG82NHNlNzFkZDFpMXVjeWZ6dGE0N3FraHNpdWlxMTBlcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l1K9DfyDTJoNmma3e/giphy.gif"
+                alt="Goth sunbathers"
+            />
+            <div class="caption">
+                Oh yeah baby 🍑🍑🍑
+            </div>
+        </div>
+
         <h2>The Fundraiser</h2>
-        <ol>
-            <li>Pick an org 2 support</li>
-            <li>
-                Come up with a creative game (use that
-                <span>big brain</span> of yours!)
-            </li>
-            <li>Charge x - y tickets per game.</li>
-            <li>Give out prizes for the winners</li>
-        </ol>
+        <p>
+            Your role at this party is both <span>player</span> and <span>hustler</span>.
+            <br/>
+            <br/>
+            <b style="color: var(--text-color)">Hustler:</b>
+            <br/>
+            <ol>
+                <li>Pick an org 2 support (we will have 2-3 to choose from)</li>
+                <li>Come up with a creative game (use that
+                    <span>big brain</span> of yours!) - it can involve only you and another person, or a group!</li>
+                <li>Write a title for your game on a card (that we provide) and tie it around your neck; then, sell your game for x - y tickets per person (<span>more tix</span> == <span>more $$$</span> for your org)</li>
+                <li>Come up with a cheeky little prize for the winners (don't worry, we will have ideas for these too)</li>
+                <li>Find people that want to take on your <span>CHALLENGE</span></li>
+                <li>Give out prizes for the winners (don't worry, we will have ideas for these too)</li>
+            </ol>
+            <br/>
+            <br/>
+            <b style="color: var(--text-color)">Player:</b>
+            <br/>
+            <ol>
+                <li>Buy virtual tickets</li>
+                <li>Find a cutie's game to play and buy their <span>CHALLENGE</span></li>
+                <li>Win a prize if you are a lucky ducky</li>
+            </ol>
+        </p>
 
         <p>
             Each and every <span>bone</span> we raise will go towards your org
@@ -152,13 +205,28 @@
         </p>
 
         <div class="gif-container">
-            <div class="caption">Come shimmy those old bones</div>
+            <div class="caption" style="font-family: 'nosifer'; font-size: 3rem;">JOIN US...</div>
+            <img
+                src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MGw2NnJscDh5NHVtM21iZGVidnBkMzhmcmcybGFsdDVubWNkcjNzcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/friCySVkBj0FPwDlxF/giphy.gif"
+                alt="Follow Us"
+            />
+        </div>
+
+        <div class="gif-container">
+            <div class="caption">...and come shimmy those old bones :</div>
             <img
                 src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3bWQxY3MwZGVqdzgyNmRraHphcGMzbXFoZzV2am16eW1rbXJyZHlkdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SZ6DcNBsMJXs8lk7vO/giphy.gif"
                 alt="Dancing Skeleton"
                 style="border-radius: 50%"
             />
-            <div class="caption"><span>fit inspo</span></div>
+        </div>
+
+        <div class="gif-container">
+            <div class="caption">Don't you dare miss out - you'd be a total</div>
+            <img
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDdycGg5eDByeWg2Z201cnJ2OG5sMHVxeHk1cHJ2MmlvNzBrZ2czdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l60KOt0rCT1KsKcuGg/giphy.gif"
+                alt="Loser"
+            />
         </div>
     </body>
 </html>
